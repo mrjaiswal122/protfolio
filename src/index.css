@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+::-webkit-scrollbar {
+    width: 10px !important;
+    background: var(--bg-color) !important;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 2em !important;
+    background: var(--site-theme-color) !important;
+}
+
+:root {
+    --site-theme-color:#01d293;
+    --bg-color:#0e1630;
+    --site-text:#808dad;
+  }
+
+
+.dash::before{
+    content: "";
+    position: absolute;
+    top: 50%;
+    height: 10px;
+    width: 30px;
+    left: -40px;
+    color: var(--site-theme-color);
+    background: var(--site-theme-color);
+    border: 1px solid white;
+}
+@media only screen and (max-width: 992px) {
+    p {
+        font-size: .9rem !important;
+    }
+}
+p {
+    color: #808dad;
+    line-height: 30px;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-color: var(--bg-color);
+}
+/* responsive */
+@media (min-width: 992px) {
+    .custom-dimension {
+        height: 470px;
+        width: 450px;
+    }
+    
+    .cs\:flex {
+        display: flex;
+    }
+    
+    .cs\:hidden {
+        display: none;
+    }
+    .cs-padding{
+     padding-top: 3.125rem;
+    }
+}
+@media (max-width: 992px) {
+    
+    .cs-hello{
+        font-size: 17px;
+    }
+    .cs-name{
+        font-size: 24px;
+    }
+  
+}
+
+
+
+@media  (min-width:576px) {
+    .csw{
+        max-width: 540px;
+        width: 540px;
+    }
+    
+} 
+ @media (min-width:768px) {
+    .csw{
+        max-width: 720px;
+        width: 720px;
+    }
+    
+}
+@media  (min-width:992px) {
+    .csw{
+        max-width: 960px;
+        width: 960px;
+    }
+    
+}
+@media (min-width:1200px) {
+   .csw{
+       max-width: 1140px;
+       width: 1140px;
+   }
+}
+ 
+
+*{
+    box-sizing: border-box;
+}
