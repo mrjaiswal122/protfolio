@@ -17,6 +17,8 @@
     --site-theme-color:#01d293;
     --bg-color:#0e1630;
     --site-text:#808dad;
+    --site-text-bg:#808dad68;
+    --site-card-bg:#171f38;
   }
 
 
@@ -24,12 +26,11 @@
     content: "";
     position: absolute;
     top: 50%;
-    height: 10px;
+    height: 1px;
     width: 30px;
     left: -40px;
     color: var(--site-theme-color);
     background: var(--site-theme-color);
-    border: 1px solid white;
 }
 @media only screen and (max-width: 992px) {
     p {
@@ -43,6 +44,7 @@ p {
 body{
     font-family: 'Quicksand', sans-serif;
     background-color: var(--bg-color);
+    color: var(--site-text);
 }
 /* responsive */
 @media (min-width: 992px) {
@@ -80,19 +82,34 @@ body{
         max-width: 540px;
         width: 540px;
     }
-    
+    .ccard{
+        width: 50%;
+        height: 300px;
+    }
 } 
  @media (min-width:768px) {
     .csw{
         max-width: 720px;
         width: 720px;
     }
+    .ccard{
+        width: 33.3333%;
+        
+    }
     
+}
+@media(min-width:936px){
+    .ccard{
+        height:309px ;
+    }
 }
 @media  (min-width:992px) {
     .csw{
         max-width: 960px;
         width: 960px;
+    }
+    .ccard{
+        height: 354px;
     }
     
 }
@@ -101,8 +118,17 @@ body{
        max-width: 1140px;
        width: 1140px;
    }
+   .ccard{
+    height: 358px;
+   }
 }
- 
+ .test{
+    border: 1px solid white;
+ }
+ .cc{
+   
+ }
+
 
 *{
     box-sizing: border-box;

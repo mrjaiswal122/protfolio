@@ -17,9 +17,9 @@ function Page() {
 
               <div className="cs-padding">
 
-                <h2 className="text-[--site-theme-color] text-2xl dash cs-hello">Hello</h2>
+                <h2 className="text-[--site-theme-color] text-2xl z-0 relative  ml-10 dash cs-hello">Hello</h2>
 
-                <h5 className="text-white my-4 text-[2.5rem] cs-name">I&#39;m Ankush Jaiswal</h5>
+                <h5 className="text-white my-4 text-[40px] cs-name">I&#39;m Ankush Jaiswal</h5>
 
                 <h2 className="text-[--site-text] mb-6 cs-hello">Fullstack Developer &amp; Instructor</h2>
 
@@ -75,7 +75,7 @@ function Page() {
           />
           </div>
 
-          <h2 className="text-[white] my-4 text-2xl">
+          <h2 className="text-[white] relative my-4 text-2xl">
             <span className="text-[--site-theme-color] dash">Hello ! </span>I&#39;m
             Ankush Jaiswal
           </h2>
@@ -100,7 +100,6 @@ function Page() {
               </div>
         </div>
 
-        <div>Resume</div>
       </div>
 
     </div>
