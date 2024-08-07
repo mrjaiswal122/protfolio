@@ -44,7 +44,7 @@ function Contact() {
                     </div>
                     <div className="flex gap-4  items-center">
                         <span className='text-[--site-theme-color] text-2xl '> <IoMailOutline /></span>
-                    obviouslyankush@gmail.com
+                    ankushjaiswal.dev@gmail.com
                     </div>
                     <div className="flex gap-4  items-center">
                         <span className='text-[--site-theme-color] text-xl'> <BsFillTelephoneFill /></span>
