@@ -82,35 +82,25 @@ body{
         max-width: 540px;
         width: 540px;
     }
-    .ccard{
-        width: 50%;
-        height: 300px;
-    }
+    
 } 
  @media (min-width:768px) {
     .csw{
         max-width: 720px;
         width: 720px;
     }
-    .ccard{
-        width: 33.3333%;
-        
-    }
+    
     
 }
 @media(min-width:936px){
-    .ccard{
-        height:309px ;
-    }
+    
 }
 @media  (min-width:992px) {
     .csw{
         max-width: 960px;
         width: 960px;
     }
-    .ccard{
-        height: 354px;
-    }
+   
     
 }
 @media (min-width:1200px) {
@@ -118,18 +108,18 @@ body{
        max-width: 1140px;
        width: 1140px;
    }
-   .ccard{
-    height: 358px;
-   }
+  
 }
  .test{
     border: 1px solid white;
  }
- .cc{
-   
- }
+ 
 
 
 *{
     box-sizing: border-box;
+}
+
+form input{
+    border-radius: 5px;
 }

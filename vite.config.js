@@ -7,9 +7,9 @@ export default defineConfig({
   server: {
       proxy: {
         '/v2': {
-          target: 'http://localhost:3000',
+          target: 'http://ankushjaiswal.ap-south-1.elasticbeanstalk.com',
           changeOrigin: true,
-          rewrite: (path) => path.replace(/^\/api/, ''),
+          // rewrite: (path) => path.replace(/^\/api/, ''),
         },
       },
     },

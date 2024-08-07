@@ -143,7 +143,7 @@ function Navbar() {
           <a onClick={hideMenu} className='flex justify-center items-center gap-2 font-bold hover:text-[--site-theme-color] text-[--site-text]' href="/#projects"><GrProjects />Projects</a>
           <a onClick={hideMenu} className='flex justify-center items-center gap-2 font-bold hover:text-[--site-theme-color]  text-[--site-text]' href=""><FaGears/>Gears</a>
           <a onClick={hideMenu} className='flex justify-center items-center gap-2 font-bold hover:text-[--site-theme-color] text-[--site-text]' href=""><FaPen/>Blog</a>
-          <a onClick={hideMenu} className='flex justify-center items-center gap-2 font-bold hover:text-[--site-theme-color] text-[--site-text]' href=""><BiSolidContact />Contact Me</a>
+          <a onClick={hideMenu} className='flex justify-center items-center gap-2 font-bold hover:text-[--site-theme-color] text-[--site-text]' href="/#contact"><BiSolidContact />Contact Me</a>
 
       </div>
     </section>
