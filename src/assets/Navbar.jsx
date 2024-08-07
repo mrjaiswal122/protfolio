@@ -46,10 +46,10 @@ function Navbar() {
             >
               Projects
             </a>
-            <a className=" hover:text-[--site-theme-color] cursor-pointer">
+            <a href='#' className=" hover:text-[--site-theme-color] cursor-pointer">
               Gears
             </a>
-            <a className=" hover:text-[--site-theme-color] cursor-pointer">
+            <a href='#' className=" hover:text-[--site-theme-color] cursor-pointer">
               Blog
             </a>
 
@@ -141,8 +141,8 @@ function Navbar() {
       <div className="w-full h-full flex flex-col justify-center items-center gap-11">
           <a onClick={hideMenu} className='flex justify-center items-center gap-2 font-bold hover:text-[--site-theme-color]  text-[--site-text]' href="/"><AiFillHome />Home</a>
           <a onClick={hideMenu} className='flex justify-center items-center gap-2 font-bold hover:text-[--site-theme-color] text-[--site-text]' href="/#projects"><GrProjects />Projects</a>
-          <a onClick={hideMenu} className='flex justify-center items-center gap-2 font-bold hover:text-[--site-theme-color]  text-[--site-text]' href=""><FaGears/>Gears</a>
-          <a onClick={hideMenu} className='flex justify-center items-center gap-2 font-bold hover:text-[--site-theme-color] text-[--site-text]' href=""><FaPen/>Blog</a>
+          <a onClick={hideMenu} className='flex justify-center items-center gap-2 font-bold hover:text-[--site-theme-color]  text-[--site-text]' href="#"><FaGears/>Gears</a>
+          <a onClick={hideMenu} className='flex justify-center items-center gap-2 font-bold hover:text-[--site-theme-color] text-[--site-text]' href="#"><FaPen/>Blog</a>
           <a onClick={hideMenu} className='flex justify-center items-center gap-2 font-bold hover:text-[--site-theme-color] text-[--site-text]' href="/#contact"><BiSolidContact />Contact Me</a>
 
       </div>
