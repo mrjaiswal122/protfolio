@@ -17,7 +17,7 @@ function Page() {
                     I&#39;m Ankush Jaiswal
                   </h5>
 
-                  <h2 className="text-[--site-text] mb-6 cs-hello">
+                  <h2 className="text-yellow-100 mb-6 cs-hello">
                     Fullstack Developer &amp; Freelancer
                   </h2>
 
@@ -79,7 +79,7 @@ function Page() {
             I&#39;m Ankush Jaiswal
           </h2>
 
-          <h5 className="mb-4 text-[--site-text] text-lg">
+          <h5 className="mb-4 text-yellow-100 text-lg">
             Fullstack Developer &amp; Freelancer
           </h5>
 

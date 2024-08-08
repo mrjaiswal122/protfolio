@@ -1,9 +1,12 @@
 {
-    "rewrites": [
-      {
-        "source": "/v2/:path*",
-        "destination": "http://ankushjaiswal.ap-south-1.elasticbeanstalk.com/v2/:path*"
-      }
-    ]
-  }
-  
+  "rewrites": [
+    {
+      "source": "/v2/:path*",
+      "destination": "http://ankushjaiswal.ap-south-1.elasticbeanstalk.com/v2/:path*"
+    },
+    {
+      "source": "/:path*",
+      "destination": "/index.html"
+    }
+  ]
+}
