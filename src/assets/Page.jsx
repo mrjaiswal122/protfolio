@@ -33,7 +33,7 @@ function Page() {
               
                 <div>
 
-              <a   className="text-white text-lg font-medium mt-12 border border-white inline-flex gap-2 justify-center items-center w-[261.88px] h-[76px] rounded-lg" href="https://drive.google.com/file/d/1C1s4v_9NSg25iyslxsS9nMCbpligzZXw/view?usp=drivesdk" alt="resume">Resume
+              <a   className="text-white text-lg font-medium mt-12 border border-white inline-flex gap-2 justify-center items-center w-[261.88px] h-[76px] rounded-lg" href="https://drive.google.com/file/d/1PE4Yp-tW_jmxBxsa0SaLhGk8Tv6w2q5V/view?usp=drivesdk" alt="resume">Resume
 
               <span><FaRegFilePdf /></span>
 
@@ -96,7 +96,7 @@ function Page() {
           <div>
             <a
               className="text-white text-lg font-medium mt-12 border border-white inline-flex gap-2 justify-center items-center w-[220px] h-[68px] rounded-lg"
-              href="https://drive.google.com/file/d/1C1s4v_9NSg25iyslxsS9nMCbpligzZXw/view?usp=drivesdk"
+              href="https://drive.google.com/file/d/1PE4Yp-tW_jmxBxsa0SaLhGk8Tv6w2q5V/view?usp=drivesdk"
               alt="resume"
             >
               Resume
